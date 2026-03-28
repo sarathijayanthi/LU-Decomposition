@@ -17,7 +17,7 @@ To write a program to find the LU Decomposition of a matrix.
 4.Backward Substitution: Using that vector Y, solve the equation U * X = Y to find your final solution vector X. Print the result.
 
 ## Program:
-
+```
 '''Program to find the L and U matrix.
 Developed by: SARATHI M
 RegisterNumber: 212225040386 '''
@@ -28,7 +28,7 @@ A = np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
-
+```
 
 ## Output:
 
